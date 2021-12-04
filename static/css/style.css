@@ -41,12 +41,13 @@ body {
 }
 
 .hero{
-  background-image: url('https://images.unsplash.com/photo-1638444571889-3e329ac53355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+  background-image: url('https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
-  display: flex;
+  width: 100vw;
+  display:flex;
   justify-content: center;
   align-items: center;
   text-align: center;
