@@ -17,6 +17,7 @@ Including another URLconf
 from django.urls import path
 from . import views
 urlpatterns = [
-    path('', views.homepage),
+    path('', views.homepage,name="hello"),
+    path('home/',views.home,name="home"),
     path('count/',views.count, name='count'),
 ]

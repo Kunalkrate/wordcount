@@ -1,0 +1,98 @@
+@import "https:fonts.googleapis.com/css2?family=Open+Sans";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 50px;
+
+
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav{
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.nav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding:7px 15px;
+}
+
+.hero{
+  background-image: url('https://images.unsplash.com/photo-1638444571889-3e329ac53355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+.hero h1{
+  font-size: 46px;
+  margin: -20px 0 20px;
+  color: #fff;
+}
+.hero p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+/*button*/
+
+button {
+  background-color: purple;
+  color: #fff;
+  border: 1px purple solid;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.hello{
+  display: flex;
+  text-align: center;
+  padding:300px ;
+}
+
+.Count_button{
+  background-color: purple;
+  color: #fff;
+  border: 1px purple solid;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}

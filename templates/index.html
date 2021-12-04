@@ -19,26 +19,17 @@
   </div>
 </nav>
 
-<div class="hello">
+<div class="hero">
   <div class="container">
-    <h1>There are {{count}} words in your text</h1>
+    <h1>Word Counter</h1>
+    <p>Count the most frequently used words on a webpage easily </p>
+    <form>
+      <button type="submit" formaction="{% url 'home' %}">Start </button>
+    </form>
 
-    <h2>Your text:</h2>
-    {{ fulltext }}
-
-    <h3> Word Count:</h3>
-
-    {%  for word, counttotal in word_dictionary %}
-
-    {{ word }} - {{ counttotal }}
-    <br>
-
-
-    {%  endfor %}
   </div>
 
 </div>
-
 
 
 

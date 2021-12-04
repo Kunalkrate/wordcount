@@ -1,9 +1,43 @@
-<h1>WORD COUNT</h1>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title> Word Counter</title>
+  </head>
+  <body>
+<!--Navigation -->
+<nav class="nav">
+  <div class="container">
+    <h1 class="logo"><a href="{% url 'hello' %}">Word Counter</a></h1>
+    <ul>
+      <li><a href="{% url 'hello' %}" class="active">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
 
 
-<form class="" action="{% url 'count' %}">
-  <textarea name="fulltext" rows="10" cols="80"></textarea>
-  <br>
-  <input type="submit" name="" value="Count!">
+<div class="hello">
+  <div class="container">
+    <h1>Type Or Paste Your Words Here</h1>
 
-</form>
+    <form class="" action="{% url 'count' %}">
+        <textarea name="fulltext"  rows="10" cols="80"></textarea>
+        <br>
+        <input class="Count_button" type="submit" name="" value="Count!">
+
+      </form>
+  </div>
+
+
+</div>
+
+
+
+
+
+  </body>
+</html>
